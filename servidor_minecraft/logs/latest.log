@@ -1,8 +1,8 @@
-[05:23:01] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.14
-[05:23:04] [main/WARN]: Warnings were found!
+[20:42:11] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.14
+[20:42:14] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.4.1 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[05:23:04] [main/INFO]: Loading 127 mods:
+[20:42:14] [main/INFO]: Loading 137 mods:
 	- accessories 1.2.19-beta+1.21.4
 	- architectury 15.0.3
 	- c2me 0.3.1.3.0+1.21.4
@@ -35,11 +35,15 @@
 	   \-- org_yaml_snakeyaml 2.2
 	- cloth-config 17.0.144
 	   \-- cloth-basic-math 0.6.1
+	- cobweb 1.3.3
+	- coroutil 1.21.4-1.3.8
 	- distanthorizons 2.3.4-b
 	   |-- fabric-key-binding-api-v1 1.0.55+7feeb73382
 	   |-- fabric-rendering-v1 10.0.0+6a293bdb82
 	   \-- fabric-screen-api-v1 2.0.36+7feeb73382
 	- do_a_barrel_roll 3.8.1
+	- easyanvils 21.4.1
+	- easymagic 21.4.1
 	- entityculling 1.8.2
 	   |-- transition 1.0.3
 	   \-- trender 1.0.5
@@ -119,9 +123,11 @@
 	   |-- blue_endless_jankson 1.2.3
 	   |-- fabric-permissions-api-v0 0.3.3
 	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- harvest_with_ease 9.4.0
 	- immersivelanterns 1.0.6
 	- immersivewind 0.8.2
 	- java 21
+	- jumpoverfences 1.7.0
 	- krypton 0.2.8
 	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
 	- lithium 0.15.3+mc1.21.4
@@ -134,8 +140,12 @@
 	   |-- io_wispforest_endec_jankson 0.1.6
 	   \-- io_wispforest_endec_netty 0.1.5
 	- placeholder-api 2.5.2+1.21.3
+	- puzzleslib 21.4.13
 	- tectonic 2.4.3
+	- tide 1.6.1
 	- txnilib 1.0.24
+	- visualworkbench 21.4.1
+	- watut 1.21.4-1.2.5
 	- wwoo 2.4.3
 	- yet_another_config_lib_v3 3.7.1+1.21.4-fabric
 	   |-- com_twelvemonkeys_common_common-image 3.12.0
@@ -146,204 +156,279 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[05:23:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-2/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:23:05] [main/INFO]: Compatibility level set to JAVA_17
-[05:23:05] [main/INFO]: Compatibility level set to JAVA_21
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[05:23:05] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:23:05] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@15.0.3 (*) (defined in c2me)
-[05:23:05] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[05:23:05] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[05:23:05] [main/WARN]: Reference map 'do_a_barrel_roll.refmap.json' for do_a_barrel_roll.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:23:05] [main/WARN]: Reference map 'do_a_barrel_roll.refmap.json' for do_a_barrel_roll.compat.modmenu.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:23:05] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:23:05] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[05:23:05] [main/INFO]: Loaded configuration file for Lithium: 158 options available, 0 override(s) found.
-[05:23:06] [main/INFO]: Loaded configuration file for ModernFix 5.20.3+mc1.21.4: 54 options available, 4 override(s) found
-[05:23:06] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[05:23:06] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[05:23:06] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[05:23:06] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[05:23:06] [main/INFO]: Applying Nashorn fix
-[05:23:06] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:23:06] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:23:07] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[05:23:07] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[05:23:07] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[05:23:07] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[05:23:07] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[05:23:07] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[05:23:07] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[05:23:08] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[05:23:11] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[05:23:15] [main/INFO]: Vanilla bootstrap took 6553 milliseconds
-[05:23:15] [main/INFO]: Registering Listeners!
-[05:23:16] [Cicada thread 0/INFO]: [cicada] I used the JSON to destroy the JSON.
-[05:23:17] [main/INFO]: Initializing Immersive Winds0.8.3
-[05:23:17] [main/INFO]: Loading Immersive Winds config
-[05:23:17] [main/INFO]: Immersive Winds Config loaded
-[05:23:17] [main/INFO]: Registering Wind networking...
-[05:23:17] [main/INFO]: Registering: S2C
-[05:23:17] [main/INFO]: Registering: C2S
-[05:23:17] [main/INFO]: Wind networking registered successfully!
-[05:23:17] [main/INFO]: Wind networking registered
-[05:23:17] [main/INFO]: Immersive Winds Particles registered
-[05:23:17] [main/INFO]: Wind Wisp registered
-[05:23:17] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
-[05:23:17] [main/INFO]: remember to update ubuntu, before it is too late
-[05:23:17] [main/INFO]: [STDOUT]: TxniLib onInitialize!
-[05:23:17] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
-[05:23:17] [main/INFO]: Distant Horizons, Version: 2.3.4-b
-[05:23:17] [main/INFO]: Registering Fabric Server Events
-[05:23:17] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
-[05:23:17] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[05:23:17] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:23:20] [main/INFO]: Loaded 1370 recipes
-[05:23:20] [main/INFO]: Loaded 1481 advancements
-[05:23:21] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.569 ms
-[05:23:21] [Server thread/INFO]: Initialising config for DistantHorizons
-[05:23:21] [Server thread/INFO]: Config for DistantHorizons initialised
-[05:23:21] [Server thread/INFO]: Running Delayed setup...
-[05:23:21] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
-[05:23:21] [Server thread/INFO]: Checking for Distant Horizons update
-[05:23:22] [Server thread/INFO]: Distant Horizons already up to date.
-[05:23:22] [Server thread/INFO]: Distant Horizons server Initialized at 
-[05:23:22] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
-[05:23:22] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[05:23:22] [Server thread/INFO]: Loading properties
-[05:23:22] [Server thread/INFO]: Default game type: SURVIVAL
-[05:23:22] [Server thread/INFO]: Generating keypair
-[05:23:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:23:22] [Server thread/INFO]: Using epoll channel type
-[05:23:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:23:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:23:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:23:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:23:22] [Server thread/INFO]: Preparing level "world"
-[05:23:22] [Server thread/INFO]: Enforcing safe world random access
-[05:23:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 435.8 ms
-[05:23:23] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[05:23:23] [Server thread/INFO]: WIND SAVE DATA INIT
-[05:23:23] [Server thread/INFO]: Loaded Clear
-[05:23:23] [Server thread/INFO]: Wind loaded from save data - Direction: 109.852875, Strength: 6, Weather: 0
-[05:23:23] [Server thread/INFO]: Wind system initialized for overworld
-[05:23:23] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
-[05:23:23] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
-[05:23:23] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
-[05:23:23] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[05:23:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 10.43 ms
-[05:23:23] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
-[05:23:23] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
-[05:23:23] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[05:23:23] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/DIM-1/data;./world/data)]].
-[05:23:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 15.24 ms
-[05:23:24] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
-[05:23:24] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
-[05:23:24] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[05:23:24] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/DIM-1/data;./world/DIM1/data;./world/data)]].
-[05:23:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:23:24] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: BALANCED
-[05:23:24] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
-[05:23:24] [DH-ApplyConfigPresetTimer/INFO]: preset active: BALANCED
-[05:23:24] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
-[05:23:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[05:23:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[05:23:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[05:23:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[05:23:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[05:23:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[05:23:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[05:23:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[05:23:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[05:23:28] [minecraft_overworld - Light/INFO]: Preparing spawn area: 0%
-[05:23:28] [Server thread/INFO]: Time elapsed: 4918 ms
-[05:23:28] [Server thread/INFO]: Done (6.618s)! For help, type "help"
-[05:23:28] [Server thread/WARN]: Dedicated server took 36.35 seconds to load
-[05:23:29] [Server thread/INFO]: Immersive Winds World tick event registered
-[05:23:29] [Server thread/INFO]: Immersive Wind Wisps Initialized for server
-[05:23:29] [Server thread/INFO]: DH TerraFirmaCraft detection: false
-[05:23:29] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
-[05:23:29] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
-[05:23:29] [Server thread/INFO]: Batch Chunk Generator initialized
-[05:23:29] [Server thread/INFO]: Creating world gen queue
-[05:23:29] [Server thread/INFO]: Created world gen queue
-[05:23:29] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
-[05:23:29] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
-[05:23:29] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
-[05:23:29] [Server thread/INFO]: Batch Chunk Generator initialized
-[05:23:29] [Server thread/INFO]: Creating world gen queue
-[05:23:29] [Server thread/INFO]: Created world gen queue
-[05:23:29] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
-[05:23:29] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
-[05:23:29] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
-[05:23:29] [Server thread/INFO]: Batch Chunk Generator initialized
-[05:23:29] [Server thread/INFO]: Creating world gen queue
-[05:23:29] [Server thread/INFO]: Created world gen queue
-[05:23:29] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
-[05:23:34] [Server thread/INFO]: hoti26[/100.97.207.69:64020] logged in with entity id 9 at (50.178040532697, 110.0, -193.61314687714184)
-[05:23:34] [Server thread/INFO]: Sending server config values to client
-[05:23:34] [Server thread/INFO]: Player [hoti26] joined.
-[05:23:34] [Server thread/INFO]: hoti26 joined the game
-[05:23:35] [Server thread/INFO]: Receiving client config
-[05:23:35] [Server thread/INFO]: [do_a_barrel_roll] Client of hoti26 accepted server config.
-[05:24:17] [Server thread/WARN]: hoti26 moved too quickly! 2.189664657404677,-10.276014711640016,2.261521087861425
-[05:24:18] [Server thread/WARN]: hoti26 moved too quickly! 0.4456237840944084,-11.14161161612887,0.6671573034836342
-[05:24:22] [DH-PriorityTaskPicker Thread[1]/WARN]: Empty height range: [-55 absolute--60 absolute]
-[05:24:22] [DH-PriorityTaskPicker Thread[1]/WARN]: Empty height range: [-55 absolute--60 absolute]
-[05:24:22] [DH-PriorityTaskPicker Thread[1]/WARN]: Empty height range: [-55 absolute--60 absolute]
-[05:25:19] [Server thread/INFO]: [hoti26: Set the time to 1000]
-[05:25:25] [Server thread/INFO]: [hoti26: The difficulty has been set to Peaceful]
-[05:25:33] [Server thread/INFO]: [hoti26: Set own game mode to Survival Mode]
-[05:25:44] [Server thread/INFO]: hoti26 fell from a high place
-[05:25:46] [Server thread/INFO]: [do_a_barrel_roll] Client of hoti26 accepted server config.
-[05:25:55] [Server thread/INFO]: [hoti26: Set own game mode to Creative Mode]
-[05:26:19] [Server thread/INFO]: [hoti26: Set own game mode to Survival Mode]
-[05:26:49] [Server thread/WARN]: hoti26 moved too quickly! -17.886643567091525,2.5448699902186434,-1.9610127712766143
-[05:26:50] [Server thread/WARN]: hoti26 moved too quickly! -17.841752438501203,2.195591484937836,-2.8751271331275063
-[05:26:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2869ms or 57 ticks behind
-[05:26:54] [Server thread/WARN]: hoti26 moved too quickly! -15.58597122216861,-6.358121355400385,-5.2609398943531005
-[05:26:55] [Server thread/WARN]: hoti26 moved too quickly! -14.50601628733699,7.9348676640363465,-8.18298829451939
-[05:26:59] [Server thread/WARN]: hoti26 moved too quickly! -13.388552796792624,8.001472268334851,-9.298407348325867
-[05:27:05] [Server thread/WARN]: hoti26 moved too quickly! -14.575414367547666,-2.9311427354873274,-9.174260701696369
-[05:27:13] [Server thread/WARN]: hoti26 moved too quickly! 0.26227120530813863,-3.587830246822392,-17.113380742017398
-[05:27:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2594ms or 51 ticks behind
-[05:27:17] [Server thread/WARN]: hoti26 moved too quickly! 16.93632658644748,-4.03601950560784,-0.4891807828360015
-[05:27:22] [Server thread/WARN]: hoti26 moved too quickly! 17.916355074904175,2.564812671561839,1.2004789379247427
-[05:27:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2337ms or 46 ticks behind
-[05:27:42] [Server thread/WARN]: hoti26 moved too quickly! 15.500488631047972,-2.553940655009967,-8.829984430965553
-[05:28:55] [Server thread/INFO]: [hoti26: Set the weather to rain]
-[05:30:10] [Server thread/INFO]: [hoti26: Set own game mode to Creative Mode]
-[05:31:04] [Netty Epoll Server IO #4/INFO]: Player [hoti26] disconnected.
-[05:31:04] [Server thread/INFO]: hoti26 lost connection: Disconnected
-[05:31:04] [Server thread/INFO]: hoti26 left the game
-[05:31:10] [Server thread/INFO]: hoti26[/100.97.207.69:64338] logged in with entity id 2274 at (105.19526212017736, 121.0, -167.68492213082177)
-[05:31:10] [Server thread/INFO]: Sending server config values to client
-[05:31:10] [Server thread/INFO]: Player [hoti26] joined.
-[05:31:10] [Server thread/INFO]: hoti26 joined the game
-[05:31:10] [Server thread/INFO]: Receiving client config
-[05:31:10] [Server thread/INFO]: [do_a_barrel_roll] Client of hoti26 accepted server config.
-[05:31:34] [Netty Epoll Server IO #6/INFO]: Player [hoti26] disconnected.
-[05:31:34] [Server thread/INFO]: hoti26 lost connection: Disconnected
-[05:31:34] [Server thread/INFO]: hoti26 left the game
-[05:32:58] [Server thread/INFO]: hoti26[/100.97.207.69:64397] logged in with entity id 2477 at (105.19526212017736, 121.0, -167.68492213082177)
-[05:32:58] [Server thread/INFO]: Sending server config values to client
-[05:32:58] [Server thread/INFO]: Player [hoti26] joined.
-[05:32:58] [Server thread/INFO]: hoti26 joined the game
-[05:32:58] [Server thread/INFO]: Receiving client config
-[05:32:58] [Server thread/INFO]: [do_a_barrel_roll] Client of hoti26 accepted server config.
+[20:42:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-2/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:42:15] [main/INFO]: Compatibility level set to JAVA_17
+[20:42:15] [main/INFO]: Compatibility level set to JAVA_21
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[20:42:15] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:42:15] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@15.0.3 (*) (defined in c2me)
+[20:42:15] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[20:42:15] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[20:42:15] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:42:15] [main/WARN]: Reference map 'do_a_barrel_roll.refmap.json' for do_a_barrel_roll.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:42:15] [main/WARN]: Reference map 'do_a_barrel_roll.refmap.json' for do_a_barrel_roll.compat.modmenu.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:42:15] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:42:15] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:42:15] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:42:15] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[20:42:15] [main/INFO]: Loaded configuration file for Lithium: 158 options available, 0 override(s) found.
+[20:42:15] [main/INFO]: Loaded configuration file for ModernFix 5.20.3+mc1.21.4: 54 options available, 4 override(s) found
+[20:42:15] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[20:42:15] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[20:42:15] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[20:42:15] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[20:42:15] [main/INFO]: Applying Nashorn fix
+[20:42:15] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:42:15] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:42:15] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:42:16] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[20:42:17] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[20:42:17] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[20:42:17] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[20:42:17] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[20:42:17] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[20:42:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:42:18] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[20:42:21] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[20:42:21] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[20:42:25] [main/INFO]: Vanilla bootstrap took 6637 milliseconds
+[20:42:25] [main/ERROR]: Entity tide:trout has no attributes
+[20:42:25] [main/ERROR]: Entity tide:bass has no attributes
+[20:42:25] [main/ERROR]: Entity tide:yellow_perch has no attributes
+[20:42:25] [main/ERROR]: Entity tide:bluegill has no attributes
+[20:42:25] [main/ERROR]: Entity tide:mint_carp has no attributes
+[20:42:25] [main/ERROR]: Entity tide:pike has no attributes
+[20:42:25] [main/ERROR]: Entity tide:guppy has no attributes
+[20:42:25] [main/ERROR]: Entity tide:catfish has no attributes
+[20:42:25] [main/ERROR]: Entity tide:clayfish has no attributes
+[20:42:25] [main/ERROR]: Entity tide:tuna has no attributes
+[20:42:25] [main/ERROR]: Entity tide:ocean_perch has no attributes
+[20:42:25] [main/ERROR]: Entity tide:mackerel has no attributes
+[20:42:25] [main/ERROR]: Entity tide:angelfish has no attributes
+[20:42:25] [main/ERROR]: Entity tide:barracuda has no attributes
+[20:42:25] [main/ERROR]: Entity tide:sailfish has no attributes
+[20:42:25] [main/INFO]: Registering Listeners!
+[20:42:25] [main/INFO]: fabric loader environment detected
+[20:42:26] [main/INFO]: Constructing common components for easyanvils:main
+[20:42:26] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[20:42:26] [main/INFO]: Constructing common components for easymagic:main
+[20:42:26] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[20:42:26] [Cicada thread 0/INFO]: [cicada] I used the JSON to destroy the JSON.
+[20:42:27] [main/INFO]: Initializing Immersive Winds0.8.3
+[20:42:27] [main/INFO]: Loading Immersive Winds config
+[20:42:27] [main/INFO]: Immersive Winds Config loaded
+[20:42:27] [main/INFO]: Registering Wind networking...
+[20:42:27] [main/INFO]: Registering: S2C
+[20:42:27] [main/INFO]: Registering: C2S
+[20:42:27] [main/INFO]: Wind networking registered successfully!
+[20:42:27] [main/INFO]: Wind networking registered
+[20:42:27] [main/INFO]: Immersive Winds Particles registered
+[20:42:27] [main/INFO]: Wind Wisp registered
+[20:42:27] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[20:42:27] [main/INFO]: There is a 1% chance that instead of Frog, you get Froge!
+[20:42:27] [main/INFO]: Constructing common components for puzzleslib:main
+[20:42:27] [main/INFO]: Initialized Tide mod on Fabric
+[20:42:27] [main/INFO]: Registering Tide Items
+[20:42:27] [main/INFO]: Registering Tide Blocks
+[20:42:27] [main/INFO]: Registering Tide Block Entities
+[20:42:27] [main/INFO]: Registering Tide Entity Types
+[20:42:27] [main/INFO]: Registering Tide Menu Types
+[20:42:27] [main/INFO]: Registering Tide Sound Events
+[20:42:27] [main/INFO]: Registering Tide Data Components
+[20:42:27] [main/INFO]: Registering Tide Entity Sub-predicates
+[20:42:27] [main/INFO]: Registering Tide Loot Conditions
+[20:42:27] [main/INFO]: Registering Tide Trigger Types
+[20:42:27] [main/INFO]: Registering Tide Features
+[20:42:27] [main/INFO]: [STDOUT]: TxniLib onInitialize!
+[20:42:27] [main/INFO]: Constructing common components for visualworkbench:main
+[20:42:27] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[20:42:27] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[20:42:27] [main/INFO]: Distant Horizons, Version: 2.3.4-b
+[20:42:27] [main/INFO]: Registering Fabric Server Events
+[20:42:27] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[20:42:27] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[20:42:28] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:42:28] [main/INFO]: Found new data pack config2brigadier, loading it automatically
+[20:42:28] [main/INFO]: Found new data pack easyanvils, loading it automatically
+[20:42:28] [main/INFO]: Found new data pack easymagic, loading it automatically
+[20:42:28] [main/INFO]: Found new data pack fabrictailor, loading it automatically
+[20:42:28] [main/INFO]: Found new data pack tide, loading it automatically
+[20:42:28] [main/INFO]: Found new data pack visualworkbench, loading it automatically
+[20:42:29] [main/INFO]: No existing world data, creating new world
+[20:42:30] [main/INFO]: Loaded 1445 recipes
+[20:42:30] [main/INFO]: Loaded 1565 advancements
+[20:42:30] [main/INFO]: Loaded 10 bait data entries
+[20:42:30] [main/INFO]: Loaded 4 fishing rod accessory data entries
+[20:42:30] [main/INFO]: Loaded 0 custom journal pages
+[20:42:30] [main/INFO]: Loaded 0 custom journal profiles
+[20:42:30] [main/INFO]: Loaded 0 journal removals
+[20:42:30] [main/INFO]: Applied 313 biome modifications to 64 of 65 new biomes in 9.433 ms
+[20:42:30] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[20:42:30] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[20:42:30] [Server thread/INFO]: Initialising config for DistantHorizons
+[20:42:31] [Server thread/INFO]: Config for DistantHorizons initialised
+[20:42:31] [Server thread/INFO]: Running Delayed setup...
+[20:42:31] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[20:42:31] [Server thread/INFO]: Checking for Distant Horizons update
+[20:42:32] [Server thread/INFO]: Distant Horizons already up to date.
+[20:42:32] [Server thread/INFO]: Distant Horizons server Initialized at 
+[20:42:32] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[20:42:32] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[20:42:32] [Server thread/INFO]: Loading properties
+[20:42:32] [Server thread/INFO]: Default game type: SURVIVAL
+[20:42:32] [Server thread/INFO]: Generating keypair
+[20:42:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:42:32] [Server thread/INFO]: Using epoll channel type
+[20:42:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:42:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:42:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:42:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:42:32] [Server thread/INFO]: Preparing level "world"
+[20:42:32] [Server thread/INFO]: Enforcing safe world random access
+[20:42:33] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 427.8 ms
+[20:42:33] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[20:42:33] [Server thread/INFO]: WIND SAVE DATA INIT
+[20:42:33] [Server thread/INFO]: Loaded Clear
+[20:42:33] [Server thread/INFO]: Wind loaded from save data - Direction: 0.0, Strength: 7, Weather: 0
+[20:42:33] [Server thread/INFO]: Wind system initialized for overworld
+[20:42:33] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[20:42:33] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[20:42:33] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[20:42:33] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[20:42:33] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[20:42:33] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[20:42:33] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[20:42:33] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[20:42:33] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[20:42:33] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[20:42:33] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[20:42:33] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[20:42:33] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[20:42:34] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[20:42:34] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: BALANCED
+[20:42:34] [DH-ApplyConfigPresetTimer/INFO]: preset active: BALANCED
+[20:42:34] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[20:42:43] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.602 ms
+[20:42:43] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[20:42:43] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[20:42:43] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[20:42:43] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[20:42:43] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[20:42:43] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[20:42:43] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[20:42:43] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[20:42:43] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [./world/DIM1/data/DistantHorizons.sqlite]
+[20:42:43] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[20:42:43] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[20:42:43] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[20:42:43] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/DIM1/data;./world/data)]].
+[20:42:44] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.234 ms
+[20:42:44] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[20:42:44] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[20:42:44] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[20:42:44] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[20:42:44] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[20:42:44] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[20:42:44] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[20:42:44] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[20:42:44] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [./world/DIM-1/data/DistantHorizons.sqlite]
+[20:42:44] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[20:42:44] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[20:42:44] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[20:42:44] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/DIM1/data;./world/data;./world/DIM-1/data)]].
+[20:42:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:42:44] [c2me-worker-0/INFO]: Preparing spawn area: 2%
+[20:42:44] [c2me-worker-0/INFO]: Preparing spawn area: 2%
+[20:42:45] [c2me-worker-0/WARN]: Empty height range: [-55 absolute--60 absolute]
+[20:42:45] [c2me-worker-0/WARN]: Empty height range: [-55 absolute--60 absolute]
+[20:42:45] [c2me-worker-0/WARN]: Empty height range: [-55 absolute--60 absolute]
+[20:42:45] [c2me-worker-0/INFO]: Preparing spawn area: 2%
+[20:42:45] [c2me-worker-0/INFO]: Preparing spawn area: 2%
+[20:42:46] [c2me-worker-0/INFO]: Preparing spawn area: 4%
+[20:42:46] [c2me-worker-0/INFO]: Preparing spawn area: 6%
+[20:42:47] [c2me-worker-0/INFO]: Preparing spawn area: 8%
+[20:42:47] [c2me-worker-0/INFO]: Preparing spawn area: 12%
+[20:42:48] [c2me-worker-0/INFO]: Preparing spawn area: 18%
+[20:42:48] [c2me-worker-0/INFO]: Preparing spawn area: 18%
+[20:42:49] [c2me-worker-0/INFO]: Preparing spawn area: 18%
+[20:42:49] [c2me-worker-0/INFO]: Preparing spawn area: 18%
+[20:42:50] [c2me-worker-0/INFO]: Preparing spawn area: 26%
+[20:42:50] [c2me-worker-0/INFO]: Preparing spawn area: 30%
+[20:42:51] [c2me-worker-0/INFO]: Preparing spawn area: 30%
+[20:42:51] [c2me-worker-0/INFO]: Preparing spawn area: 40%
+[20:42:52] [c2me-worker-0/INFO]: Preparing spawn area: 48%
+[20:42:52] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[20:42:53] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[20:42:53] [c2me-worker-0/INFO]: Preparing spawn area: 61%
+[20:42:54] [c2me-worker-0/INFO]: Preparing spawn area: 61%
+[20:42:54] [c2me-worker-0/INFO]: Preparing spawn area: 69%
+[20:42:55] [c2me-worker-0/INFO]: Preparing spawn area: 71%
+[20:42:55] [c2me-worker-0/INFO]: Preparing spawn area: 75%
+[20:42:56] [c2me-worker-0/INFO]: Preparing spawn area: 85%
+[20:42:56] [c2me-worker-0/INFO]: Preparing spawn area: 85%
+[20:42:57] [c2me-worker-0/INFO]: Preparing spawn area: 87%
+[20:42:57] [Server thread/INFO]: Time elapsed: 13041 ms
+[20:42:57] [Server thread/INFO]: Done (24.608s)! For help, type "help"
+[20:42:57] [Server thread/WARN]: Dedicated server took 55.472 seconds to load
+[20:42:57] [Server thread/INFO]: Immersive Winds World tick event registered
+[20:42:57] [Server thread/INFO]: Immersive Wind Wisps Initialized for server
+[20:42:57] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[20:42:57] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[20:42:57] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[20:42:57] [Server thread/INFO]: Batch Chunk Generator initialized
+[20:42:57] [Server thread/INFO]: Creating world gen queue
+[20:42:57] [Server thread/INFO]: Created world gen queue
+[20:42:57] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[20:42:57] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[20:42:57] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[20:42:57] [Server thread/INFO]: Batch Chunk Generator initialized
+[20:42:57] [Server thread/INFO]: Creating world gen queue
+[20:42:57] [Server thread/INFO]: Created world gen queue
+[20:42:57] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[20:42:57] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[20:42:57] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[20:42:57] [Server thread/INFO]: Batch Chunk Generator initialized
+[20:42:57] [Server thread/INFO]: Creating world gen queue
+[20:42:57] [Server thread/INFO]: Created world gen queue
+[20:42:57] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[20:44:02] [Server thread/INFO]: hoti26[/100.97.207.69:50918] logged in with entity id 35 at (-5.5, 76.0, -0.5)
+[20:44:02] [Server thread/INFO]: Sending server config values to client
+[20:44:02] [Server thread/INFO]: Player [hoti26] joined.
+[20:44:02] [Server thread/INFO]: hoti26 joined the game
+[20:44:03] [Server thread/INFO]: Receiving client config
+[20:44:03] [Server thread/INFO]: [do_a_barrel_roll] Client of hoti26 accepted server config.
+[20:44:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3773ms or 75 ticks behind
+[20:44:34] [Server thread/INFO]: [hoti26: Set own game mode to Creative Mode]
+[20:44:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3172ms or 63 ticks behind
+[20:44:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3914ms or 78 ticks behind
+[20:44:53] [Server thread/WARN]: hoti26 moved too quickly! 0.7396372271225502,3.3750001341104507,9.656081041165706
+[20:45:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2618ms or 52 ticks behind
+[20:45:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2730ms or 54 ticks behind
+[20:47:01] [Server thread/WARN]: hoti26 moved too quickly! 2.790297939492305,0.0,9.798771834654161
+[20:47:03] [Server thread/WARN]: hoti26 moved too quickly! 0.9323267728928357,-3.443851177577443,9.851498597586215
+[20:47:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2401ms or 48 ticks behind
+[20:47:55] [Server thread/WARN]: hoti26 moved too quickly! 7.965586071775249,1.713744068098066,6.0760161359835365
+[20:47:58] [Server thread/WARN]: hoti26 moved too quickly! 0.31460380847647684,4.124995737796411,9.365602260877552
+[20:48:02] [Server thread/WARN]: hoti26 moved too quickly! 1.0187950891459678,9.750000387395119,2.8973691879400008
+[20:48:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2122ms or 42 ticks behind
+[20:49:12] [Server thread/WARN]: hoti26 moved too quickly! 6.967002817046392,-6.37380107490992,-4.261798658442558
+[20:49:15] [Server thread/WARN]: hoti26 moved too quickly! 0.1134809365391547,-11.314849834017082,-0.13436845146657106
+[20:51:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3270ms or 65 ticks behind
+[20:51:34] [Server thread/WARN]: hoti26 moved too quickly! 0.5393956873691791,-10.315586405803174,0.9434493244008308
+[20:51:42] [Server thread/WARN]: hoti26 moved too quickly! 0.6691617745120368,-8.84229078574117,-6.008928354819432
