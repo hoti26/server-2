@@ -173,6 +173,12 @@
     },
     "done": true
   },
+  "tide:recipes/misc/bait": {
+    "criteria": {
+      "has_seeds": "2025-08-02 21:07:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2025-08-02 20:48:05 +0000"
